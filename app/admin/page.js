@@ -35,15 +35,15 @@ export default function () {
                     </Link>
                     <Link href="/admin/track" className="max-h-36 flex justify-center items-center gap-3 bg-[#453F78] text-2xl text-gray-100 rounded-md">
                     <FaMapPin/>
-                    <span>Create</span>
+                    <span>Track</span>
                     </Link>
                     <Link href="/admin/support" className="max-h-36 flex justify-center items-center gap-3 bg-[#453F78] text-2xl text-gray-100 rounded-md">
                     <IoMdMail/>
-                    <span>Create</span>
+                    <span>Support</span>
                     </Link>
                     <Link href="/admin/profile" className="max-h-36 flex justify-center items-center gap-3 bg-[#453F78] text-2xl text-gray-100 rounded-md">
                     <FaRegUserCircle/>
-                    <span>Create</span>
+                    <span>Profiile</span>
                     </Link>
                 </article>
                 <aside className="border border-gray-200 rounded-md p-4">

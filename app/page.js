@@ -16,26 +16,26 @@ export default function Home () {
         <p className={`${abril.className} text-white text-3xl md:text-4xl lg:text-6xl text-center`}>Early Logistics</p>
 
         <div className="flex flex-col gap-5">
-          <h1 className="text-yellow-500 text-7xl font-bold md:text-center">Package Tracking At It&apos;s Best</h1>
+          <h1 className="text-yellow-500 text-5xl lg:text-6xl font-bold text-center">Package Tracking At It&apos;s Best</h1>
             
             <blockquote className="flex justify-center">
-              <Link href="" className="bg-red-500 p-8 lg:p-6 text-center text-white text-xl">Track Package</Link>
+              <Link href="#" className="bg-red-500 p-8 lg:p-6 text-center text-white text-xl">Track Package</Link>
             </blockquote>
         </div>
 
         <footer className="flex flex-col gap-6">
           <ul className="flex justify-center items-center gap-8">
-            <li className="">
+            <li className="text-white text-2xl">
               <Link href="http://instagram.com/early_code_tech"><IoLogoInstagram/></Link>
             </li>
-            <li>
+            <li className="text-white text-2xl">
               <Link href="http://x.com/earlycodetech"><FaXTwitter/></Link>
             </li>
           </ul>
           <ul className="flex justify-between">
             <li className="text-xs text-gray-300">&copy; {new Date().getFullYear()} Early Logistics</li>
             <li className="text-xs text-gray-300">
-              <Link href="">Privacy Policy</Link>
+              <Link href="#">Privacy Policy</Link>
             </li>
           </ul>
         </footer>
