@@ -7,10 +7,10 @@ export const validation = yup.object().shape({
     destination: yup.string().required(),
     senderFullName: yup.string().required().min(5),
     senderPhone: yup.string().required().min(11),
-    weight: yup.number().required(),
-    length: yup.number().required(),
-    breadth: yup.number().required(),
-    height: yup.number().required(),
+    weight: yup.number().required().moreThan(0),
+    length: yup.number().required().moreThan(0),
+    breadth: yup.number().required().moreThan(0),
+    height: yup.number().required().moreThan(0),
     value: yup.number().required()
 })
 
